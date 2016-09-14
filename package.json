@@ -1,0 +1,30 @@
+{
+	"name": "@zokugun/istanbul.reporter.minimap",
+	"description": "Generate an HTML report of the the coverage with a minimap",
+	"version": "0.4.0",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ZokugunJS/istanbul.reporter.minimap"
+	},
+	"bugs": {
+		"url": "https://github.com/ZokugunJS/istanbul.reporter.minimap/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"main": "src/istanbul.reporter.minimap.js",
+	"peerDependencies" : {
+		"istanbul": "^0.4"
+	},
+	"keywords": [
+		"istanbul",
+		"minimap"
+	]
+}
