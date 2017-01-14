@@ -1,14 +1,19 @@
 /**
  * istanbul.reporter.minimap.js
- * Version 0.4.0
+ * Version 0.5.0
  * March 4th, 2016
  *
  * Copyright (c) 2016 Baptiste Augrain
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  **/
-var handlebars = require('istanbul/node_modules/handlebars'),
-    defaults = require('istanbul/lib/report/common/defaults'),
+try {
+	var handlebars = require('istanbul/node_modules/handlebars');
+}
+catch(error) {
+	var handlebars = require('handlebars');
+}
+var defaults = require('istanbul/lib/report/common/defaults'),
     path = require('path'),
     fs = require('fs'),
     util = require('util'),

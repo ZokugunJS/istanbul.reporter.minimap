@@ -5,13 +5,6 @@
 
 Look to [@zokugun/istanbul.cover](https://github.com/ZokugunJS/istanbul.cover) for more documentations.
 
-Changelog
----------
-
-### 0.4.0
-
-- Initial Release
-
 License
 -------
 
